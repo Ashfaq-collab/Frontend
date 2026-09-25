@@ -1,7 +1,40 @@
-.box{
-    margin-top: 160px;
-    margin-right: 800px;
+body {
+    font-family: "Oswald", sans-serif;
 }
-.boxbody{
+
+.boxbody {
     height: 20px;
 }
+
+.maincard {
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
+#gettodo,
+#add {
+    border: 2px solid black;
+
+}
+
+.main {
+    width: 500px;
+}
+
+.card,
+.btn {
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
+.secondmain {
+    height: 200px; /* Adjust this height to whatever limit you want */
+    overflow-y: auto;
+}
+
+/* img{
+    width: 300px;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: 0px;
+} */
